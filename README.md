@@ -197,7 +197,7 @@ Now search for the following code block:
 ```Rails
 test:
 ...
-"database: nome do database"
+"database: database name"
 ```
 
 then change the "database" line to:
