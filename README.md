@@ -211,7 +211,7 @@ url: postgres://postgres:@db:5432/dummy_test
 After finishing these changes, repeat the step 4.
 
 ## Creating a Makefile
-A Makefile is a way to create shortcuts as commands to handle your application usability.
+A Makefile is a way to create shortcuts as commands to handle your application's usability.
 
 ### Step 1
 Go inside your application and, at the global directory, create a document with the name 'Makefile'. Inside it, insert the following code block:
