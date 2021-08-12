@@ -208,7 +208,11 @@ test:
 url: postgres://postgres:@db:5432/dummy_test
 ```
 
-After finishing these changes, repeat the step 4.
+After finishing these changes, execute the command
+
+```bash
+docker-compose run web bash
+```
 
 ## Creating a Makefile
 A Makefile is a way to create shortcuts as commands to handle your application's usability.
