@@ -125,7 +125,7 @@ docker exec -it "id do container" bash
 Docker compose is a way to compose your application with diferent containers("services"). 
 
 ### Step 1
-Inside your application's global directory, create a document with the name 'docker-compose.yml' with the following code block.
+Inside your application's global directory, create a document with the name 'docker-compose.yml' with the following code block. If you didn't specify the postgre database, paste it without the 'db' code block.
 
 ```Docker
 version: '2'
