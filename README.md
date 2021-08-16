@@ -69,7 +69,7 @@ ENTRYPOINT ["./entrypoint.sh"]
 ```
 
 ### Step 2
-Creating an entrypoint (it will contain some commands that your application will run by default, if you dont specify any other command)
+Creating an entrypoint (it will contain some commands that your application will run by default, if you dont specify any other command). Create the 'entrypoint.sh' inside your app's global directory.
 
 ```entrypoint
 #!/bin/bash
